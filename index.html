@@ -3,84 +3,72 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>personal-portfolio</title>
   </head>
   <body>
     <header>
-      <section>
-        <div>Shohrux Portfoliosi</div>
+      <section class="header-section">
+        <h1 class="header-h1">Shohrux Portfoliosi</h1>
 
-        <nav>
-          <a>Asosiy</a>
-          <a>Men haqimda</a>
+        <nav class="header-nav">
+          <a>Main</a>
+          <a>About</a>
           <a>Contact</a>
         </nav>
-
-        <div>
-          <button>Meni yollang</button>
-        </div>
+        <a href="#"> <button>Meni yollang</button></a>
       </section>
     </header>
 
     <main>
-      <div>
-        <section>
-          <article>
-            <!-- <div>bu yerda rasm boladi</div> -->
-          </article>
-          <article>
-            <div>
-              <h1>Shohrux</h1>
-              <h2>FRONTEND DEVELOPER</h2>
-            </div>
-            <div>
-              Hozirda frontend qismni o'rganib, 12 yoshli shohruxni orzularini
-              amalga oshiryapman. Har bir yiqlish va muammodan so'ng tajriba
-              olishga harakat qilyapman
-            </div>
-            <div>
-              <div>
-                <button>Mening ishlarim</button>
-              </div>
-            </div>
-          </article>
-        </section>
-        <section>
-          <article>
-            <h3>Men biladigan texnologiyalar</h3>
-            <div>
-              <div>
-                <div>HTML</div>
-                <div>CSS</div>
-                <div>JavaScript</div>
-              </div>
-            </div>
-          </article>
+      <section>
+        <article>
+          <img
+            src="./assets/images/ChatGPT Image May 23, 2026 at 02_23_13 PM.png"
+            alt="Kelishgan Shohrux rasmi"
+          />
+        </article>
+        <article class="article1">
+          <h1>Shohrux</h1>
+          <h2>FRONTEND DEVELOPER</h2>
 
-          <article>
-            <h3>Mini Funksiya: Counter</h3>
-            <div>
-              <div>
-                <div>chiqadigan son</div>
-                <div>
-                  <button>minus</button>
-                  <button>Qaytarish</button>
-                  <button>plus</button>
-                </div>
-              </div>
-            </div>
-          </article>
-        </section>
-      </div>
+          <p>
+            Hozirda frontend qismni o'rganib, 12 yoshli shohruxni orzularini
+            amalga oshiryapman. Har bir yiqlish va muammodan so'ng tajriba
+            olishga harakat qilyapman
+          </p>
+          <a href="#"><button>Mening ishlarim</button></a>
+        </article>
+      </section>
+      <section class="section1">
+        <article class="article2">
+          <h3>Men biladigan texnologiyalar</h3>
+
+          <div>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>JavaScript</p>
+          </div>
+        </article>
+
+        <article class="article3">
+          <h3>Mini Funksiya: Counter</h3>
+          <div class="counter">
+            <p>0</p>
+
+            <button>minus</button>
+            <button type="reset">Qaytarish</button>
+            <button>plus</button>
+          </div>
+        </article>
+      </section>
     </main>
 
     <footer>
-      <article>
-        <h4>Amethyst Portfolio</h4>
-        <p>© 2026 Portfolio. Barcha huquqlar himoyalangan</p>
-        <p>Maxfiylik siyosati Xizmat ko'rsatish shartlari</p>
-      </article>
+      <h4>Amethyst Portfolio</h4>
+      <p>© 2026 Portfolio. Barcha huquqlar himoyalangan</p>
+      <p>Maxfiylik siyosati Xizmat ko'rsatish shartlari</p>
     </footer>
 
     <div id="app"></div>
