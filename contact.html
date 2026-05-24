@@ -3,95 +3,86 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Men bilan bog'lanish</title>
   </head>
   <body>
-    <header>
-      <section>
-        <div>Shohrux Portfoliosi</div>
+    <header class="contact-header">
+      <section class="csection1">
+        <h1>Shohrux Portfoliosi</h1>
 
-        <nav>
-          <a>Asosiy</a>
-          <a>Men haqimda</a>
-          <a>Contact</a>
+        <nav class="cnav">
+          <a href="./index.html">Main</a>
+          <a href="./about.html">About</a>
+          <a class="contact-a" href="#">Contact</a>
         </nav>
 
-        <div>
-          <a>Meni yollang</a>
-        </div>
+        <a>Meni yollang</a>
+        <!-- buni > shu bilan qilaman -->
       </section>
     </header>
 
-    <main>
-      <div>
-        <section>
-          <h1>Men bilan bog'laning</h1>
-          <!-- buni tagiga chiroyli chizi qqilaman -->
-        </section>
+    <main class="contact-main">
+      <section class="msection1">
+        <h1>Men bilan bog'laning</h1>
+      </section>
+      <!-- buni tagiga chiroyli chiziq qilaman -->
 
-        <section>
-          <article>
-            <form action="submit" method="post">
-              <label for="ism">Ism</label>
-              <input
-                type="text"
-                id="ism"
-                name="forma"
-                placeholder="Ismingizni kiriting"
-              />
+      <section class="msection2">
+        <article class="marticle1">
+          <form action="submit" method="post" class="mform">
+            <label for="ism">Ism</label>
+            <input
+              type="text"
+              id="ism"
+              name="forma"
+              placeholder="Ismingizni kiriting"
+            />
 
-              <label for="email">Email</label>
-              <input
-                type="email"
-                name="forma"
-                id="email"
-                placeholder="Emailingizni kiriting"
-              />
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="forma"
+              id="email"
+              placeholder="Emailingizni kiriting"
+            />
 
-              <label for="xabar">Xabar</label>
-              <input
-                type="text"
-                name="forma"
-                id="xabar"
-                placeholder="Xabaringizni yozing..."
-              />
+            <label for="xabar">Xabar</label>
+            <input
+              type="text"
+              name="forma"
+              id="xabar"
+              placeholder="Xabaringizni yozing..."
+            />
 
-              <button type="submit">Yuborish</button>
-            </form>
-          </article>
+            <button type="submit">Yuborish</button>
+          </form>
+        </article>
 
-          <article>
-            <div>
-              <h3>Ijtimoiy tarmoqlar</h3>
-              <div>
-                <a>Instagram</a>
-                <!-- bu yerga ikonkala tiqish kerakligi uchun kerak -->
-              </div>
-              <div>
-                <a>Telegram</a>
-              </div>
-              <div>
-                <a>TikTok</a>
-              </div>
+        <article class="marticle2">
+          <div class="ijtimoiy">
+            <h3>Ijtimoiy tarmoqlar</h3>
+            <div class="tarmoqlar">
+              <a class="insta">Instagram</a>
+              <!-- bu yerga ikonkala tiqish kerakligi uchun kerak -->
+              <a class="telegram">Telegram</a>
+              <a class="tt">TikTok</a>
             </div>
-          </article>
-        </section>
-
-        <section>
-          <p>
-            Savollaringiz yoki takliflaringiz bo'lsa, men bilan bemalol
-            bog'lanishingiz mumkin
-          </p>
-        </section>
-      </div>
+          </div>
+        </article>
+      </section>
+      <section class="msection3">
+        <p>
+          Savollaringiz yoki takliflaringiz bo'lsa, men bilan bemalol
+          bog'lanishingiz mumkin
+        </p>
+      </section>
     </main>
 
-    <footer>
-      <article>
-        <h4>Amethyst Portfolio</h4>
-        <p>© 2026 Portfolio. Barcha huquqlar himoyalangan</p>
-        <p>Maxfiylik siyosati Xizmat ko'rsatish shartlari</p>
-      </article>
+    <footer class="mfooter">
+      <h4>Amethyst Portfolio</h4>
+      <p>© 2026 Portfolio. Barcha huquqlar himoyalangan</p>
+      <p>Maxfiylik siyosati Xizmat ko'rsatish shartlari</p>
     </footer>
   </body>
 </html>
