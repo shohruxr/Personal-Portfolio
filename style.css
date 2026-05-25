@@ -1,113 +1,89 @@
-@media (max-width: 1200px) {
-  header {
-    width: 100%;
-    height: 80px;
-    padding-right: 40px;
-    padding-left: 40px;
+@media (min-width: 1200px) {
+  .index-header {
+    height: 60px;
     background: #ffffff;
     box-shadow: 0px 1px 2px 0px #0000000d;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
   }
-  .header-section {
-    width: 90%;
-    height: 50px;
-    padding: 16px 20.02px 16px 20px;
+  .isection {
+    max-width: 95%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
   }
-  .header-h1 {
-    margin-right: 20px;
-    font-family: Plus Jakarta Sans;
+  .isection h1 {
     font-weight: 700;
-    font-style: normal;
     font-size: 24px;
-    line-height: 31.2px;
     letter-spacing: 0px;
     color: #4a00e0;
   }
-  .header-nav {
-    margin: auto;
-    width: 287px;
-    height: 22px;
-    display: flex;
-    gap: 24px;
-  }
-  .header-nav a {
-    width: 49px;
-    height: 14px;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    font-family: Plus Jakarta Sans;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 14px;
-    line-height: 14px;
-    letter-spacing: 0.7px;
-  }
-  .nav-a {
-    color: #4a00e0;
-    padding-bottom: 2px;
-    border-bottom: 2px solid #4a00e0;
-  }
-
-  .header-section button {
+  .isection > a {
     color: #ffffff;
-    width: 127px;
-    height: 30px;
-    padding: 8px 16px;
-    border: 1px solid #4a00e0;
-    background-color: #4a00e0;
     border-radius: 8px;
+    padding: 10px 16px;
+    background: #4a00e0;
     box-shadow: 0px 1px 2px 0px #0000000d;
-    font-family:
-      "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-family: Plus Jakarta Sans;
     font-weight: 600;
     font-size: 14px;
     line-height: 14px;
     letter-spacing: 0.7px;
     transition: 0.3s;
   }
-  header button:hover {
+  .isection a {
+    text-decoration: none;
+  }
+  .inav {
+    min-width: 200px;
+    display: flex;
+    gap: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.7px;
+  }
+
+  .nav-a {
+    color: #4a00e0;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #4a00e0;
+  }
+
+  .isection > a:hover {
     cursor: pointer;
     transform: scale(1.03);
   }
-  main {
-    width: 100%;
-    height: 800px;
-    padding: 48px 20px;
+  .index-main {
     background-color: #eeecfe;
+    height: 770px;
+    padding: 20px;
   }
-  main section {
-    background: #ffffff;
-    width: 95%;
-    min-height: 400px;
-    gap: 35px;
+  .index-main section {
+    gap: 30px;
     border-radius: 12px;
     box-sizing: border-box;
-    padding: 48px;
     display: flex;
     margin: 20px auto;
   }
-  main img {
+  .hero-section {
+    height: 360px;
+    background: #ffffff;
+    padding: 36px;
+  }
+
+  .index-main img {
     width: 300px;
     height: 300px;
     border-radius: 9999px;
-    object-fit: cover;
-  }
-  .hero-section {
-    min-width: 1000px;
-  }
-  .article1 {
-    min-width: 200px;
   }
   .article1 h1 {
     font-family: Plus Jakarta Sans;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 45px;
     line-height: 38.4px;
-    letter-spacing: -0.64px;
     color: #1a1a27;
   }
   .article1 h3 {
@@ -115,18 +91,13 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 25.2px;
-    letter-spacing: 0px;
     color: #4a00e0;
   }
   .article1 p {
-    width: auto;
-    height: auto;
-    min-width: 300px;
     font-family: Plus Jakarta Sans;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0px;
     color: #484456;
   }
   .article1 button {
@@ -149,42 +120,39 @@
     cursor: pointer;
     transform: scale(1.03);
   }
-
   .section1 {
-    width: 95%;
-    height: 330px;
+    height: 300px;
+    background-color: #eeecfe;
     display: flex;
-    gap: 20px;
-    background: #eeecfe;
+    justify-content: center;
   }
   .article2 {
-    min-width: 350px;
-    min-height: 250px;
-    padding: 24px 140px 24px 30px;
+    min-width: 45%;
+    padding: 24px;
     border: 1px solid #ffffff;
-    flex: 1;
-    gap: 16px;
     border-radius: 12px;
     background-color: #ffffff;
   }
   .article2 h3 {
     width: 300px;
+    height: 26px;
     padding-bottom: 8px;
     font-family: Plus Jakarta Sans;
     font-weight: 600;
     font-size: 18px;
     line-height: 25.2px;
-    letter-spacing: 0px;
     color: #1a1a27;
     border-bottom: 1px solid #e3e0f2;
   }
   .article2 div {
+    max-width: 480px;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     gap: 5px;
   }
   .article2 p {
-    width: 100px;
+    width: 80px;
     height: 16px;
     padding: 8px 28px;
     background: #eeecfe;
@@ -199,34 +167,48 @@
     text-align: center;
   }
   .article3 {
-    flex: 1;
-    height: 254px;
+    min-width: 45%;
     border-radius: 12px;
     padding: 24px;
     background-color: #ffffff;
   }
   .article3 h3 {
-    width: 80%;
+    width: 300px;
     height: 26px;
     padding-bottom: 8px;
-    border-bottom: 1px solid #e3e0f2;
     font-family: Plus Jakarta Sans;
     font-weight: 600;
     font-size: 18px;
-    letter-spacing: 0px;
+    line-height: 25.2px;
     color: #1a1a27;
+    border-bottom: 1px solid #e3e0f2;
   }
   .counter {
-    width: auto;
-    min-width: 400px;
-    height: 100px;
-
+    height: 140px;
     border-radius: 8px;
-    padding: 24px;
+    padding: 20px;
     background: #eeecfe;
-    text-align: center;
+  }
+  .counter p {
+    font-size: 40px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .counter div {
+    margin-bottom: 20px;
+  }
+  .counterdiv {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    position: relative;
+    bottom: 25px;
   }
   .counter button {
+    display: flex;
+    padding: 6px;
     border-radius: 8px;
     background: #4a00e0;
     border: 1px solid #4a00e0;
@@ -244,24 +226,19 @@
     cursor: pointer;
     transform: scale(1.03);
   }
-  footer {
-    width: 100%;
-    padding-top: 46px;
-    padding-bottom: 48px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-  }
 }
 @media (min-width: 1200px) {
   .contact-header {
     height: 60px;
     background: #ffffff;
     box-shadow: 0px 1px 2px 0px #0000000d;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
   }
   .csection1 {
-    max-width: 90%;
+    max-width: 95%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -289,6 +266,10 @@
   .cnav a {
     text-decoration: none;
   }
+  .csection1 > a:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+  }
   .csection1 > a {
     color: #ffffff;
     border-radius: 8px;
@@ -300,15 +281,17 @@
     font-size: 14px;
     line-height: 14px;
     letter-spacing: 0.7px;
+    transition: 0.3s;
   }
   .contact-main {
     height: 770px;
     padding: 20px;
-    background: #f4f3fb;
+    background: #eeecfe;
   }
   .msection1 {
     height: 50px;
     padding-bottom: 30px;
+    background: #eeecfe;
   }
   .contact-main h1 {
     padding-bottom: 2px;
@@ -323,8 +306,8 @@
   .msection2 {
     height: 480px;
     display: flex;
-    background-color: #f4f3fb;
     gap: 20px;
+    background-color: #eeecfe;
   }
   .marticle1 {
     min-width: 70%;
@@ -370,7 +353,7 @@
     letter-spacing: 0.7px;
   }
   .marticle2 {
-    min-width: 25%;
+    width: 25%;
     height: 480px;
     background: #ffffff;
     border-radius: 12px;
@@ -391,9 +374,11 @@
     gap: 8px;
   }
   .tarmoqlar a {
-    border-radius: 8px;
     gap: 11.99px;
-    padding: 12px;
+    padding: 8px;
+    border: 1px solid #c9c3d9;
+    box-shadow: 0px 1px 2px 0px #0000000d;
+    border-radius: 8px;
     font-family: Plus Jakarta Sans;
     font-weight: 400;
     font-size: 16px;
@@ -420,17 +405,16 @@
     border: 1px solid #e9e6f8;
     border-radius: 12px;
     border-width: 1px;
-    background: #f5f2ff;
+    background: #e3dcfa;
     font-family: Plus Jakarta Sans;
     font-weight: 600;
     font-size: 18px;
     text-align: center;
     color: #6336fa;
   }
-  .mfooter {
+  footer {
     height: 120px;
-    top: 834px;
-    padding: 40px;
+    padding: 50px;
     border-top-width: 1px;
     background: #e2dff8;
     border-top: 1px solid #e9e6f8;
@@ -439,7 +423,7 @@
     justify-content: center;
     align-items: center;
   }
-  .mfooter p {
+  footer .p {
     color: #4a00e0;
   }
 }
