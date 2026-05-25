@@ -3,39 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>About ME</title>
   </head>
   <body>
-    <header>
-      <section>
-        <div>Shohrux Portfoliosi</div>
+    <header class="index-header">
+      <section class="isection">
+        <h1>Shohrux Portfoliosi</h1>
 
-        <nav>
-          <a>Main</a>
-          <a>About</a>
-          <a>Contact</a>
+        <nav class="inav">
+          <a href="./index.html">Main</a>
+          <a href="#" class="nav-a">About</a>
+          <a href="./contact.html">Contact</a>
         </nav>
 
-        <div>
-          <button>Meni yollang</button>
-        </div>
+        <a href="./contact.html">Meni yollang</a>
       </section>
     </header>
 
-    <main>
-      <section>
-        <article>
-          <h1>This is all about me</h1>
-          <p>
-            Toza va zamonaviy interfeyslarni yaratishga ishtiyoqli fidoyi
-            dasturchi Shohrux bilan tanishing
-          </p>
-        </article>
+    <main class="about-main">
+      <section class="about">
+        <h1>This is all about me</h1>
+        <p>
+          Toza va zamonaviy interfeyslarni yaratishga ishtiyoqli fidoyi
+          dasturchi Shohrux bilan tanishing
+        </p>
+      </section>
+      <section class="asection2">
+        <article class="aarticle1">
+          <img
+            src="./assets/images/ChatGPT Image May 25, 2026 at 07_31_10 PM.png"
+          />
 
-        <article>
-          <div><!-- <div>bu yerda rasmim boladi</div> --></div>
-          <div>
-            <h2>Shohrux</h2>
+          <div class="aboutme">
+            <h1>Shohrux</h1>
             <h3>FRONTEND DEVELOPER</h3>
             <p>
               Wassup! Bu Shohrux. Men oddiy, funktsional va vizual jihatdan
@@ -43,69 +44,82 @@
               dasturchisiman. Menda yangi texnologiyalarni o'rganish orqali
               mahoratimni doimiy ravishda takomillashtirishga kuchli ishtiyoq
               bor. Mening maqsadim foydalanuvchilar o'zaro ishlashni
-              yoqtiradigan raqamli mahsulotlarni yaratishdir.
+              yoqtiradigan raqamli mahsulotlarni yaratishdir. Muqaddam
+              sudlanmagan.
             </p>
           </div>
         </article>
-        <article>
-          <h2>Mening qiziqishlarim</h2>
+
+        <article class="aarticle2">
+          <h2>My Interest</h2>
           <!-- bu yerda beforeni ishlataman  -->
-          <div>
+          <div class="qiziqish">
             <p>Coding</p>
             <p>Travel</p>
             <p>Music</p>
             <p>Finance</p>
           </div>
         </article>
-
-        <article>
+      </section>
+      <section class="asection3">
+        <article class="aarticle3">
           <h2>Texnik Bilimlarim</h2>
           <!-- bu yergayam before qoyiladi -->
-          <div>
-            <div>
-              <p>HTML Intermediate 80%</p>
-              <div>
-                <!-- buni ichida foizga oxshagan narsa boladi  -->
-              </div>
+          <div class="foiz">
+            <div class="html">
+              <p>HTML</p>
+              <p>Intermediate 80%</p>
             </div>
 
-            <div>
-              <p>CSS Intermediate 75%</p>
-              <div>
-                <!-- buni ichida foizga oxshagan narsa boladi  -->
-              </div>
+            <div class="not1">
+              <p class="not1-1"></p>
             </div>
 
-            <div>
-              <p>JavaScript Beginner 40%</p>
-              <div>
-                <!-- buni ichida foizga oxshagan narsa boladi  -->
-              </div>
+            <div class="html">
+              <p>CSS</p>
+              <p>Intermediate 75%</p>
+            </div>
+            <div class="not1">
+              <p class="not1-2"></p>
+            </div>
+
+            <div class="html">
+              <p>JavaScript</p>
+              <p>Beginner 40%</p>
+            </div>
+            <div class="not1">
+              <p class="not1-3"></p>
             </div>
           </div>
         </article>
 
-        <article>
+        <article class="aarticle4">
           <h2>Mini Funksiya: Belgilar sanovchi</h2>
           <!-- before ishlatilishi kerak  -->
           <p>
             Belgilar sonining dinamik ravishda yangilanishini ko'rish uchun
             quyidagi matn maydoniga yozing (UI ko'rinishi).
           </p>
-          <div>
-            <input type="text" placeholder="Xabaringizni shu yerga yozing..." />
-            <p>Belgilar soni: 0</p>
+          <div class="case">
+            <input
+              type="text"
+              placeholder="Xabaringizni shu yerga yozing..."
+              class="input"
+            />
+            <div class="oxiri">
+              <p>Belgilar soni:</p>
+              <p class="sanaydi">0</p>
+            </div>
           </div>
         </article>
       </section>
     </main>
 
     <footer>
-      <article>
-        <h4>Amethyst Portfolio</h4>
-        <p>© 2026 Portfolio. Barcha huquqlar himoyalangan</p>
-        <p>Maxfiylik siyosati Xizmat ko'rsatish shartlari</p>
-      </article>
+      <h4>Amethyst Portfolio</h4>
+      <p class="p">© 2026 Portfolio. Barcha huquqlar himoyalangan</p>
+      <p>Maxfiylik siyosati Xizmat ko'rsatish shartlari</p>
     </footer>
+    <script type="module" src="script.js"></script>
   </body>
 </html>
