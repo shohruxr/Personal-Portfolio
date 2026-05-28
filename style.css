@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 footer {
   height: 120px;
   padding: 50px;
@@ -113,7 +116,8 @@ footer .p {
     line-height: 24px;
     color: #484456;
   }
-  .article1 button {
+  .btn {
+    text-decoration: none;
     padding: 8px 24px;
     border: 1px solid #4a00e0;
     border-radius: 8px;
@@ -129,7 +133,7 @@ footer .p {
     color: #ffffff;
     transition: 0.3s;
   }
-  .article1 button:hover {
+  .btn:hover {
     cursor: pointer;
     transform: scale(1.03);
   }
@@ -570,6 +574,7 @@ footer .p {
     gap: 8px;
   }
   .input {
+    resize: none;
     border-radius: 8px;
     padding: 8px 8px 80px 8px;
     border-width: 1px;
@@ -633,7 +638,8 @@ footer .p {
     line-height: 24px;
     color: #484456;
   }
-  .article1 button {
+  .btn {
+    text-decoration: none;
     padding: 8px 24px;
     border: 1px solid #4a00e0;
     border-radius: 8px;
@@ -649,7 +655,7 @@ footer .p {
     color: #ffffff;
     transition: 0.3s;
   }
-  .article1 button:hover {
+  .btn:hover {
     cursor: pointer;
     transform: scale(1.03);
   }
@@ -1030,7 +1036,6 @@ footer .p {
     color: #1a1a27;
   }
   .foiz {
-    width: 100%;
     display: flex;
     flex-direction: column;
   }
@@ -1040,6 +1045,7 @@ footer .p {
     justify-content: space-between;
   }
   .not1 {
+    width: 100%;
     height: 8px;
     border-radius: 9999px;
     background: #e3e0f2;
@@ -1091,6 +1097,7 @@ footer .p {
     gap: 8px;
   }
   .input {
+    resize: none;
     border-radius: 8px;
     padding: 8px 8px 80px 8px;
     border-width: 1px;
@@ -1154,7 +1161,8 @@ footer .p {
     line-height: 24px;
     color: #484456;
   }
-  .article1 button {
+  .btn {
+    text-decoration: none;
     padding: 8px 24px;
     border: 1px solid #4a00e0;
     border-radius: 8px;
@@ -1170,7 +1178,7 @@ footer .p {
     color: #ffffff;
     transition: 0.3s;
   }
-  .article1 button:hover {
+  .btn:hover {
     cursor: pointer;
     transform: scale(1.03);
   }
@@ -1551,7 +1559,6 @@ footer .p {
     color: #1a1a27;
   }
   .foiz {
-    width: 100%;
     display: flex;
     flex-direction: column;
   }
@@ -1561,24 +1568,25 @@ footer .p {
     justify-content: space-between;
   }
   .not1 {
+    width: 100%;
     height: 8px;
     border-radius: 9999px;
     background: #e3e0f2;
   }
   .not1-1 {
-    width: 414px;
+    width: 80%;
     height: 8px;
     border-radius: 9999px;
     background: #4a00e0;
   }
   .not1-2 {
-    width: 350px;
+    width: 75%;
     height: 8px;
     border-radius: 9999px;
     background: #4a00e0;
   }
   .not1-3 {
-    width: 200px;
+    width: 40%;
     height: 8px;
     border-radius: 9999px;
     background: #4a00e0;
@@ -1591,8 +1599,6 @@ footer .p {
     box-shadow: 0px 1px 2px 0px #0000000d;
   }
   .aarticle4 h2 {
-    height: 21px;
-    overflow-y: auto;
     font-family: Plus Jakarta Sans;
     font-weight: 600;
     font-size: 21px;
@@ -1615,7 +1621,6 @@ footer .p {
     gap: 8px;
   }
   .input {
-    min-height: 100px;
     resize: none;
     border-radius: 8px;
     padding: 8px;
@@ -1751,7 +1756,6 @@ footer .p {
     color: #1a1a27;
   }
   .foiz {
-    width: 100%;
     display: flex;
     flex-direction: column;
   }
@@ -1761,24 +1765,25 @@ footer .p {
     justify-content: space-between;
   }
   .not1 {
+    width: 100%;
     height: 8px;
     border-radius: 9999px;
     background: #e3e0f2;
   }
   .not1-1 {
-    width: 414px;
+    width: 80%;
     height: 8px;
     border-radius: 9999px;
     background: #4a00e0;
   }
   .not1-2 {
-    width: 350px;
+    width: 75%;
     height: 8px;
     border-radius: 9999px;
     background: #4a00e0;
   }
   .not1-3 {
-    width: 200px;
+    width: 40%;
     height: 8px;
     border-radius: 9999px;
     background: #4a00e0;
@@ -1792,7 +1797,6 @@ footer .p {
   }
   .aarticle4 h2 {
     height: 21px;
-    overflow-y: auto;
     font-family: Plus Jakarta Sans;
     font-weight: 600;
     font-size: 21px;
@@ -1801,7 +1805,6 @@ footer .p {
   }
   .aarticle4 p {
     height: 50px;
-    overflow-y: auto;
     font-family: Plus Jakarta Sans;
     font-weight: 400;
     font-size: 14px;
@@ -1881,7 +1884,8 @@ footer .p {
     line-height: 24px;
     color: #484456;
   }
-  .article1 button {
+  .btn {
+    text-decoration: none;
     padding: 8px 24px;
     border: 1px solid #4a00e0;
     border-radius: 8px;
@@ -1897,9 +1901,9 @@ footer .p {
     color: #ffffff;
     transition: 0.3s;
   }
-  .article1 button:hover {
+  .button:hover {
     cursor: pointer;
-    transform: scale(1.03);
+    transform: scale(2);
   }
   .section1 {
     height: 300px;
