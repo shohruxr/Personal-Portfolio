@@ -1,20 +1,7 @@
 html {
   scroll-behavior: smooth;
 }
-footer {
-  height: 120px;
-  padding: 50px;
-  border-top-width: 1px;
-  background: #e2dff8;
-  border-top: 1px solid #e9e6f8;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-footer .p {
-  color: #4a00e0;
-}
+
 .index-header {
   padding: 5px;
   height: 60px;
@@ -71,6 +58,20 @@ footer .p {
   cursor: pointer;
   transform: scale(1.03);
 }
+footer {
+  height: 120px;
+  padding: 50px;
+  border-top-width: 1px;
+  background: #e2dff8;
+  border-top: 1px solid #e9e6f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .p {
+  color: #4a00e0;
+}
 @media (min-width: 1201px) {
   .index-main {
     background-color: #eeecfe;
@@ -117,6 +118,7 @@ footer .p {
     color: #484456;
   }
   .btn {
+    display: inline-block;
     text-decoration: none;
     padding: 8px 24px;
     border: 1px solid #4a00e0;
@@ -639,6 +641,7 @@ footer .p {
     color: #484456;
   }
   .btn {
+    display: inline-block;
     text-decoration: none;
     padding: 8px 24px;
     border: 1px solid #4a00e0;
@@ -1162,6 +1165,7 @@ footer .p {
     color: #484456;
   }
   .btn {
+    display: inline-block;
     text-decoration: none;
     padding: 8px 24px;
     border: 1px solid #4a00e0;
@@ -1187,7 +1191,6 @@ footer .p {
     background-color: #eeecfe;
     display: flex;
     justify-content: center;
-    flex-grow: 1;
   }
   .article2 {
     flex: 1;
@@ -1621,6 +1624,7 @@ footer .p {
     gap: 8px;
   }
   .input {
+    min-height: 100px;
     resize: none;
     border-radius: 8px;
     padding: 8px;
@@ -1885,6 +1889,7 @@ footer .p {
     color: #484456;
   }
   .btn {
+    display: inline-block;
     text-decoration: none;
     padding: 8px 24px;
     border: 1px solid #4a00e0;
@@ -1901,9 +1906,9 @@ footer .p {
     color: #ffffff;
     transition: 0.3s;
   }
-  .button:hover {
+  .btn:hover {
     cursor: pointer;
-    transform: scale(2);
+    transform: scale(1.03);
   }
   .section1 {
     height: 300px;
