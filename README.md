@@ -38,7 +38,7 @@ Ushbu loyiha frontend dasturlash bo‘yicha o‘rganayotgan bilimlarimni amaliyo
 ![about](./assets/images/Screenshot%202026-05-29%20at%209.03.39 PM.png)
 ![about](./assets/images/Screenshot%202026-05-29%20at%209.03.33 PM.png)
 
-###contact
+##contact
 ![contact](./assets/images/Screenshot%202026-05-29%20at%209.11.55 PM.png)
 ![contact](./assets/images/Screenshot%202026-05-29%20at%209.12.02 PM.png)
 ![contact](./assets/images/Screenshot%202026-05-29%20at%209.12.08 PM.png)
