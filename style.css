@@ -2396,11 +2396,11 @@ html {
 
     display: grid;
     grid-template-columns: 1fr 1fr;
-    white-space: nowrap;
   }
   footer h4,
   footer p {
     margin: 0;
+    white-space: nowrap;
   }
   footer .p {
     color: #ffffff;
