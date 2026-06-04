@@ -2395,17 +2395,14 @@ html {
     color: #ffffff;
 
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
+    white-space: nowrap;
   }
-  footer h4 {
+  footer h4,
+  footer p {
     margin: 0;
   }
   footer .p {
     color: #ffffff;
-    white-space: nowrap;
-  }
-
-  footer p {
-    margin: 0;
   }
 }
