@@ -151,9 +151,9 @@ html {
   }
   .article2 div {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
-    gap: 5px;
+    gap: 8px;
   }
   .article2 p {
     height: 16px;
@@ -745,9 +745,9 @@ html {
   }
   .article2 div {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
-    gap: 5px;
+    gap: 8px;
   }
   .article2 p {
     height: 16px;
@@ -1339,9 +1339,9 @@ html {
   }
   .article2 div {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
-    gap: 5px;
+    gap: 8px;
   }
   .article2 p {
     height: 16px;
